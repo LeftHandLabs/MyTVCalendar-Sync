@@ -3,7 +3,7 @@
     "guid": "b2ca7845-8162-4b23-bc92-5dbce299a910",
     "name": "MyTVCalendar Sync",
     "description": "Automatically marks TV episodes as watched on MyTVCalendar.com when you watch them in Jellyfin.",
-    "overview": "Syncs your Jellyfin watch history to MyTVCalendar.",
+    "overview": "Syncs your Jellyfin watch history to MyTVCalendar.com",
     "owner": "LeftHandLabs",
     "category": "General",
     "imageUrl": "",
