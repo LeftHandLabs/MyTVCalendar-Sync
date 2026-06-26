@@ -4,7 +4,7 @@
     "name": "MyTVCalendar Sync",
     "description": "Automatically marks TV episodes as watched on MyTVCalendar.com when you watch them in Jellyfin.",
     "overview": "Syncs your Jellyfin watch history to MyTVCalendar.",
-    "owner": "manchesteroc",
+    "owner": "LeftHandLabs",
     "category": "General",
     "imageUrl": "",
     "versions": [
