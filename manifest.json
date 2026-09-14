@@ -9,11 +9,11 @@
     "imageUrl": "",
     "versions": [
       {
-        "version": "1.0.8.7",
-        "changelog": "Fix: events skipped due to the Sync Settings user filter were only logged at Debug level, making silent filtering invisible in normal Jellyfin logs. This skip is now logged at Information level.",
+        "version": "1.0.8.8",
+        "changelog": "Fix: the Sync Settings user filter compared GUIDs as strings in mismatched formats (hyphenated vs. hyphen-less), so a selected user never matched and all watched-status events were silently dropped. Now compares parsed GUIDs. Also restricted the plugin's API endpoints (Pair/Unlink/SyncWatched) to Jellyfin administrators.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/LeftHandLabs/MyTVCalendar-Sync/releases/download/v1.0.8.7/MyTVCalendar.Jellyfin.zip",
-        "checksum": "8D103F72229B85C4D7FBD88A8C430C1D",
+        "sourceUrl": "https://github.com/LeftHandLabs/MyTVCalendar-Sync/releases/download/v1.0.8.8/MyTVCalendar.Jellyfin.zip",
+        "checksum": "04808DA6240F6DD161F599076AB27CCF",
         "timestamp": "2026-09-14T00:00:00Z"
       }
     ]
